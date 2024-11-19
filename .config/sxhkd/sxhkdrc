@@ -1,0 +1,22 @@
+Print
+    xwd | savecap
+shift + Print
+    xwd -root | savecap
+alt + Print
+    xdg-open ~/Pictures/Screenshots
+ctrl + Print
+    xwd | copycap
+XF86AudioRaiseVolume
+    pamixer -i 1 ; \
+    paplay ~/Sounds/pipe.wav
+XF86AudioLowerVolume
+    pamixer -d 1 ; \
+    paplay ~/Sounds/pipe.wav
+XF86MonBrightnessUp
+    xbacklight +5
+XF86MonBrightnessDown
+    xbacklight -5
+super + r
+    dmenu_rltw
+super + Return
+    kitty
