@@ -1,0 +1,6 @@
+tint2 &
+mpv --mute=yes --wid=0 --loop=yes --quiet=yes /home/awoo/Videos/astolfo.mts &
+xinput set-prop 'SynPS/2 Synaptics TouchPad' 'libinput Scroll Method Enabled' 0 1 0 &
+nm-applet &
+sxhkd &
+#picom &
