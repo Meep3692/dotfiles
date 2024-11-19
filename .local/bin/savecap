@@ -1,0 +1,12 @@
+#!/bin/sh
+file_type=png
+file_name=$(date +%Y-%m-%dT%H:%M:%S)
+if [ ! -f ~/Pictures/Screenshots/$file_name.$file_type ]; then
+  convert xwd:- ~/Pictures/Screenshots/$file_name.$file_type
+else
+  i=1
+  while [ -f ~/Pictures/Screenshots/$file_name\($i\).$file_type ]; do
+    i=$((i+1))
+  done
+  convert xwd:- ~/Pictures/Screenshots/$file_name\($i\).$file_type
+fi

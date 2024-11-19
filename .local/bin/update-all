@@ -1,0 +1,4 @@
+#!/bin/sh
+sudo snap refresh
+sudo dnf -y update
+flatpak -y update

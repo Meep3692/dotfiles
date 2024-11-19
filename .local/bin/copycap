@@ -1,0 +1,3 @@
+#!/bin/sh
+file_type=png
+convert xwd:- $file_type:- | xclip -i
