@@ -2,3 +2,5 @@
 sudo snap refresh
 sudo dnf -y update
 flatpak -y update
+guix pull
+guix upgrade
