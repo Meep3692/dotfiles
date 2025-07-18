@@ -1,0 +1,11 @@
+[user]
+	email = meep3692@gmail.com
+	name = Darian Smith
+[init]
+	defaultBranch = trunk
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
