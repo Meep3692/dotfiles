@@ -1,0 +1,71 @@
+* {
+    font-family: 'Noto Sans Mono', 'Font Awesome 6 Free', 'Font Awesome 6 Brands', monospace;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+window#waybar {
+    background-color: #BBBBEE;
+    border-bottom: 1px solid #7171A0;
+    color: #000;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+window#waybar.termite {
+    background-color: #3F3F3F;
+}
+
+window#waybar.chromium {
+    background-color: #000000;
+    border: none;
+}
+
+button {
+    border: solid 1px #666;
+    box-shadow: inset white 1px 1px;
+    border-radius:0;
+    background-color:#CCC;
+    margin-right:2px;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    /* background-color: transparent;
+    color: #ffffff; */
+}
+
+button.focused {
+    background-color: #999999;
+    box-shadow: inset #CCCCCC 1px 1px;
+}
+
+button.urgent {
+    background-color: #eb4d4b;
+}
+
+label.module {
+    border: solid 1px #666;
+    box-shadow: inset white 1px 1px;
+    border-radius:0;
+    background-color:#CCC;
+    margin-left:2px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+label.module.pressed {
+    background-color: #999999;
+    box-shadow: inset #CCCCCC 1px 1px;
+}
+
+#workspaces {
+    border: none;
+    background: inherit;
+    box-shadow: none;
+    padding:0;
+}
