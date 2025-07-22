@@ -4,14 +4,17 @@
              (gnu home services dotfiles)
              (gnu services)
              (gnu packages admin)
-             (gnu packages wm)
              (gnu packages terminals)
              (gnu packages shells)
              (gnu packages shellutils)
+             (gnu packages wm)
+             (gnu packages xdisorg)
+             (gnu packages fonts)
              (guix gexp))
 
 (home-environment
- (packages (list bpytop sway waybar kitty zsh starship))
+ (packages (list bpytop waybar kitty starship fuzzel
+                 font-awesome font-google-noto font-google-noto-emoji font-google-noto-sans-cjk font-google-noto-serif-cjk))
  (services
   (append (list
            (service home-zsh-service-type
