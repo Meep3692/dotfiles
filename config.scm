@@ -17,7 +17,7 @@
 
 (home-environment
  (packages (list bpytop waybar foot starship fuzzel
-                 librewolf streamlink yt-dlp
+                 librewolf streamlink yt-dlp vlc
                  font-awesome font-google-noto font-google-noto-emoji font-google-noto-sans-cjk font-google-noto-serif-cjk font-monofur))
  (services
   (append (list
