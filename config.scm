@@ -14,7 +14,8 @@
              (guix gexp))
 
 (home-environment
- (packages (list bpytop waybar kitty starship fuzzel
+ (packages (list bpytop waybar foot starship fuzzel
+                 librewolf streamlink yt-dlp
                  font-awesome font-google-noto font-google-noto-emoji font-google-noto-sans-cjk font-google-noto-serif-cjk font-monofur))
  (services
   (append (list
