@@ -10,6 +10,8 @@
              (gnu packages wm)
              (gnu packages xdisorg)
              (gnu packages fonts)
+             (gnu packages librewolf)
+             (gnu packages video)
              (fruix fonts)
              (guix gexp))
 
