@@ -26,5 +26,6 @@
                     (home-dotfiles-configuration
                      (directories '("."))
                      (layout 'stow)
+                     (packages '("foot" "git" "guile" "sway" "waybar"))
                      (excluded '("\\.git" "\\.gitignore" "config.scm")))))
           %base-home-services)))
