@@ -14,7 +14,7 @@
 
 (home-environment
  (packages (list bpytop waybar kitty starship fuzzel
-                 font-awesome font-google-noto font-google-noto-emoji font-google-noto-sans-cjk font-google-noto-serif-cjk))
+                 font-awesome font-google-noto font-google-noto-emoji font-google-noto-sans-cjk font-google-noto-serif-cjk monofur))
  (services
   (append (list
            (service home-zsh-service-type
