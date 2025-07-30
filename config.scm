@@ -12,7 +12,7 @@
              (gnu packages fonts)
              (gnu packages librewolf)
              (gnu packages video)
-             (fruix fonts)
+             (fruix packages fonts)
              (guix gexp))
 
 (home-environment
